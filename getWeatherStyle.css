@@ -1,0 +1,65 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.weather-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.weather-container img {
+    width: 50px;
+}
+
+.weather-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.weather-container p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ADD8E6; /* Light Blue */
+    color: #00008B; /* Dark Blue */
+}
+
+/* Button Styling */
+button {
+    background-color: #1E90FF; /* Dodger Blue */
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+/* Button Hover */
+button:hover {
+    background-color: #4682B4; /* Steel Blue */
+}
+
+/* Button Active */
+button:active {
+    background-color: #5F9EA0; /* Cadet Blue */
+}
+
+/* Button Focus */
+button:focus {
+    outline: 2px solid #00BFFF; /* Deep Sky Blue */
+}
+
+#back-button,
+#home-button {
+    margin-right: 10px; /* Adds space between the buttons */
+}
+
+

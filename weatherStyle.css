@@ -1,0 +1,87 @@
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ADD8E6; /* Light Blue */
+    color: #00008B; /* Dark Blue */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Container Styling */
+.container {
+    text-align: center; /* Centering the title */
+    padding-top: 50px;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 3rem;
+    color: #1E3A8A; /* Darker Blue */
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* Input Container */
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Space between the input and button */
+}
+
+/* Input Field Styling */
+#cityInput {
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 2px solid #4682B4; /* Steel Blue */
+    border-radius: 5px;
+    width: 250px;
+    max-width: 100%;
+    transition: border-color 0.3s ease;
+}
+
+/* Input Field Focus Styling */
+#cityInput:focus {
+    border-color: #1E90FF; /* Dodger Blue */
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    background-color: #1E90FF; /* Dodger Blue */
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover */
+button:hover {
+    background-color: #4682B4; /* Steel Blue */
+}
+
+/* Button Active */
+button:active {
+    background-color: #5F9EA0; /* Cadet Blue */
+}
+
+/* Button Focus */
+button:focus {
+    outline: 2px solid #00BFFF; /* Deep Sky Blue */
+}
+
+/* Add some margin at the bottom of the page */
+.container, .input-container {
+    margin-bottom: 20px;
+}
+
+

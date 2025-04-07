@@ -1,0 +1,59 @@
+/* styles.css */
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 450px; /* Adjust the height as needed */
+    overflow: hidden; /* Hide the images that are not visible */
+}
+
+.mySlides {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none; /* Hide all images initially */
+}
+
+/* Button Styling */
+#get-started-button {
+    background-color: #1E90FF; /* Dodger Blue */
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute; /* Position the button on the right */
+    right: 20px; /* Place the button 20px from the right edge */
+    bottom: 40px; /* Place the button 20px from the bottom edge */
+}
+
+#get-started-button:hover {
+    background-color: #4682B4; /* Steel Blue */
+}
+
+#get-started-button:active {
+    background-color: #5F9EA0; /* Cadet Blue */
+}
+
+/* Add focus style for accessibility */
+#get-started-button:focus {
+    outline: 2px solid #00BFFF; /* Deep Sky Blue */
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ADD8E6; /* Light Blue */
+    color: #00008B; /* Dark Blue */
+}
+
+/* Container for better page alignment */
+.container {
+    text-align: center; /* Centering the title */
+    padding-top: 50px;
+}
+
+
+
